@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Abdulhafiz Nasir · Playmaker — Software Engineering Student &amp; Frontend Developer</title>
+<meta name="description" content="Portfolio of Abdulhafiz Nasir (Playmaker), a Computer Software Engineering student from Nigeria building web applications, exploring cybersecurity, and creating innovative digital experiences.">
+<meta name="keywords" content="Abdulhafiz Nasir, Playmaker, CodeBreakers, software engineering student, frontend developer, cybersecurity, Nigeria developer, Katsina, ethical hacking">
+<meta name="author" content="Abdulhafiz Nasir">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://playmaker.dev/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Abdulhafiz Nasir · Playmaker — Software Engineering Student">
+<meta property="og:description" content="Building modern web applications, learning cybersecurity, and creating innovative digital experiences.">
+<meta property="og:image" content="assets/icons/icon-512.png">
+<meta property="og:url" content="https://playmaker.dev/">
+<meta property="og:site_name" content="Playmaker · Portfolio">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Abdulhafiz Nasir · Playmaker">
+<meta name="twitter:description" content="Computer Software Engineering student, frontend developer, and cybersecurity enthusiast.">
+<meta name="twitter:image" content="assets/icons/icon-512.png">
+
+<meta name="theme-color" content="#05070d">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="assets/icons/icon-32.png" sizes="32x32">
+<link rel="icon" href="assets/icons/icon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="assets/icons/icon-180.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Abdulhafiz Nasir",
+  "alternateName": "Playmaker",
+  "url": "https://playmaker.dev/",
+  "image": "assets/profile.jpg",
+  "jobTitle": "Computer Software Engineering Student",
+  "description": "Computer Software Engineering student, frontend developer, and cybersecurity enthusiast based in Nigeria.",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Katsina State Institute of Technology and Management"
+  },
+  "knowsAbout": ["Web Development", "Cybersecurity", "Ethical Hacking", "Python", "JavaScript", "Linux"],
+  "nationality": "Nigerian",
+  "sameAs": []
+}
+</script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<div class="bg-atmosphere" aria-hidden="true"></div>
+<div class="bg-grid" aria-hidden="true"></div>
+
+<div id="loader" aria-hidden="true">
+  <div class="loader-mark">
+    <span>&gt;</span><span id="loader-text">booting_portfolio.sh</span><span class="loader-caret">_</span>
+  </div>
+  <div class="loader-bar"><span></span></div>
+</div>
+
+<div id="scroll-progress"></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+
+<header class="site-nav" id="site-nav">
+  <div class="container nav-inner">
+    <a href="#top" class="brand"><span class="bracket">&lt;/&gt;</span> Playmaker<span class="dot">.</span></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about"><span class="idx">01</span>About</a>
+      <a href="#skills"><span class="idx">02</span>Skills</a>
+      <a href="#projects"><span class="idx">03</span>Projects</a>
+      <a href="#experience"><span class="idx">04</span>Experience</a>
+      <a href="#education"><span class="idx">05</span>Education</a>
+      <a href="#contact"><span class="idx">06</span>Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle color theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <a href="#contact" class="btn btn-primary btn-sm" style="display:none" id="nav-cta">Let's talk</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#about">01 · About</a>
+    <a href="#skills">02 · Skills</a>
+    <a href="#projects">03 · Projects</a>
+    <a href="#experience">04 · Experience</a>
+    <a href="#education">05 · Education</a>
+    <a href="#contact">06 · Contact</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <canvas id="network-canvas" aria-hidden="true"></canvas>
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="pulse"></span> Available for internships &amp; freelance work</span>
+        <h1>Abdulhafiz Nasir<br><span class="last">builds things that ship.</span></h1>
+        <div class="nickname-badge">Playmaker</div>
+        <div class="type-line" id="type-line" aria-live="polite"><span class="caret"></span></div>
+        <p class="hero-desc">Passionate about building modern web applications, learning cybersecurity, solving problems with technology, and creating innovative digital experiences — one commit at a time.</p>
+        <div class="hero-cta">
+          <a href="assets/Abdulhafiz_Nasir_CV.pdf" class="btn btn-primary" download>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/></svg>
+            Download CV
+          </a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+        <div class="social-row" aria-label="Social links">
+          <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.4 9.4 0 015 0c1.9-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.95.36.3.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0012 2z"/></svg></a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 5a2 2 0 11-4-.01 2 2 0 014 .01zM3.3 8.75h3.6V21H3.3V8.75zM9.4 8.75h3.45v1.68h.05c.48-.9 1.65-1.86 3.4-1.86 3.63 0 4.3 2.4 4.3 5.5V21h-3.6v-6.13c0-1.46-.03-3.35-2.05-3.35-2.06 0-2.37 1.6-2.37 3.25V21H9.4V8.75z"/></svg></a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Twitter / X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 3H21l-6.6 7.5L22 21h-6.4l-5-6.5L4.7 21H2.6l7.05-8.05L2 3h6.5l4.5 5.94L18.9 3zm-1.1 16.2h1.17L7.35 4.75H6.1l11.7 14.45z"/></svg></a>
+          <a href="mailto:hello@playmaker.dev" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+        </div>
+
+        <div class="stat-strip reveal-stagger" id="stat-strip">
+          <div class="stat-item"><div class="stat-num"><span class="grad" data-count="15">0</span>+</div><div class="stat-label">PROJECTS_BUILT</div></div>
+          <div class="stat-item"><div class="stat-num"><span class="grad" data-count="10">0</span>+</div><div class="stat-label">TECH_STACKS_USED</div></div>
+          <div class="stat-item"><div class="stat-num"><span class="grad" data-count="2">0</span></div><div class="stat-label">YEARS_LEARNING</div></div>
+          <div class="stat-item"><div class="stat-num"><span class="grad" data-count="1">0</span></div><div class="stat-label">STARTUP_CO-FOUNDED</div></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="portrait-wrap">
+          <div class="portrait-glow" aria-hidden="true"></div>
+          <span class="portrait-frame-corner tl" aria-hidden="true"></span>
+          <span class="portrait-frame-corner br" aria-hidden="true"></span>
+          <img src="assets/profile.jpg" alt="Portrait of Abdulhafiz Nasir, also known as Playmaker" width="360" height="360" loading="eager">
+        </div>
+        <div class="terminal" aria-hidden="true">
+          <div class="terminal-bar"><span></span><span></span><span></span><span class="t-title">playmaker@codebreakers:~</span></div>
+          <div class="terminal-body" id="terminal-body">
+            <div class="line"><span class="prompt">$</span> whoami</div>
+            <div class="line"><span class="val">Abdulhafiz "Playmaker" Nasir</span></div>
+            <div class="line"><span class="prompt">$</span> cat role.txt</div>
+            <div class="line"><span class="val">Software Engineering Student</span></div>
+            <div class="line"><span class="comment"># co-founder @ CodeBreakers</span></div>
+            <div class="line"><span class="prompt">$</span> status --current</div>
+            <div class="line"><span class="val">building, learning, shipping ▮</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue"><div class="mouse"></div>SCROLL</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-eyebrow">01 / About</span>
+      <h2>Studying systems. Building solutions.</h2>
+      <p>A closer look at who's behind the terminal.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-card glass reveal">
+        <span class="role-tag">Currently</span>
+        <h3>Computer Software Engineering</h3>
+        <p class="school">Katsina State Institute of Technology &amp; Management — National Innovation Diploma</p>
+        <ul class="focus-list">
+          <li>Frontend development with modern JS frameworks &amp; Tailwind CSS</li>
+          <li>Ethical hacking and applied cybersecurity fundamentals</li>
+          <li>Linux systems administration and command-line tooling</li>
+          <li>AI-assisted development and automation workflows</li>
+        </ul>
+      </div>
+      <div class="about-copy reveal">
+        <p>I'm <strong>Abdulhafiz Nasir</strong>, known online as <strong>Playmaker</strong> — a Computer Software Engineering student who treats every project like a puzzle worth solving properly, not just finishing. Most of my time goes into building web applications, but the itch to understand how systems break (and how to defend them) keeps pulling me toward cybersecurity and ethical hacking.</p>
+        <p>I'm constantly learning — cycling between frontend frameworks, Linux internals, and AI development tools — and I turn what I learn into shipped projects rather than letting it sit in notes. That habit led to co-founding <strong>CodeBreakers</strong>, a platform built to train the next generation of developers and ethical hackers the way I wish I'd been taught: hands-on, project-first, no fluff.</p>
+        <p>When I'm not coding, I'm usually experimenting with a new tool, breaking down a vulnerability for my YouTube audience, or sketching the next idea worth building.</p>
+        <div class="interest-tags">
+          <span>Web Development</span><span>Ethical Hacking</span><span>Linux</span><span>AI Tools</span><span>Problem Solving</span><span>Open Source</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-eyebrow">02 / Skills</span>
+      <h2>The stack behind the work.</h2>
+      <p>Tools and languages I reach for daily — and the ones I'm actively leveling up.</p>
+    </div>
+    <div class="skills-grid reveal-stagger" id="skills-grid">
+
+      <div class="skill-cat glass">
+        <h4>Frontend</h4>
+        <div class="skill-row" data-pct="88"><div class="skill-row-top"><span class="s-name">HTML</span><span class="s-pct">88%</span></div><div class="skill-bar"><span></span></div></div>
+        <div class="skill-row" data-pct="84"><div class="skill-row-top"><span class="s-name">CSS</span><span class="s-pct">84%</span></div><div class="skill-bar"><span></span></div></div>
+        <div class="skill-row" data-pct="78"><div class="skill-row-top"><span class="s-name">JavaScript</span><span class="s-pct">78%</span></div><div class="skill-bar"><span></span></div></div>
+        <div class="skill-row" data-pct="82"><div class="skill-row-top"><span class="s-name">Responsive Design</span><span class="s-pct">82%</span></div><div class="skill-bar"><span></span></div></div>
+        <div class="skill-row" data-pct="76"><div class="skill-row-top"><span class="s-name">Tailwind CSS</span><span class="s-pct">76%</span></div><div class="skill-bar"><span></span></div></div>
+      </div>
+
+      <div class="skill-cat glass">
+        <h4>Programming</h4>
+        <div class="skill-row" data-pct="72"><div class="skill-row-top"><span class="s-name">Python</span><span class="s-pct">72%</span></div><div class="skill-bar"><span></span></div></div>
+        <div class="skill-row" data-pct="58"><div class="skill-row-top"><span class="s-name">Java</span><span class="s-pct">58%</span></div><div class="skill-bar"><span></span></div></div>
+        <div class="skill-row" data-pct="45"><div class="skill-row-top"><span class="s-name">Flutter Basics</span><span class="s-pct">45%</span></div><div class="skill-bar"><span></span></div></div>
+      </div>
+
+      <div class="skill-cat glass">
+        <h4>Tools &amp; Systems</h4>
+        <div class="skill-row" data-pct="80"><div class="skill-row-top"><span class="s-name">Git &amp; GitHub</span><span class="s-pct">80%</span></div><div class="skill-bar"><span></span></div></div>
+        <div class="skill-row" data-pct="70"><div class="skill-row-top"><span class="s-name">Linux</span><span class="s-pct">70%</span></div><div class="skill-bar"><span></span></div></div>
+        <div class="skill-row" data-pct="62"><div class="skill-row-top"><span class="s-name">Kali Linux</span><span class="s-pct">62%</span></div><div class="skill-bar"><span></span></div></div>
+        <div class="skill-row" data-pct="90"><div class="skill-row-top"><span class="s-name">VS Code</span><span class="s-pct">90%</span></div><div class="skill-bar"><span></span></div></div>
+        <div class="skill-row" data-pct="48"><div class="skill-row-top"><span class="s-name">Android Dev Tools</span><span class="s-pct">48%</span></div><div class="skill-bar"><span></span></div></div>
+      </div>
+
+      <div class="skill-cat glass">
+        <h4>Backend (Learning)</h4>
+        <div class="skill-row" data-pct="55"><div class="skill-row-top"><span class="s-name">FastAPI</span><span class="s-pct">55%</span></div><div class="skill-bar"><span></span></div></div>
+        <div class="skill-row" data-pct="60"><div class="skill-row-top"><span class="s-name">Supabase</span><span class="s-pct">60%</span></div><div class="skill-bar"><span></span></div></div>
+        <div class="skill-row" data-pct="65"><div class="skill-row-top"><span class="s-name">SQLite</span><span class="s-pct">65%</span></div><div class="skill-bar"><span></span></div></div>
+      </div>
+
+    </div>
+
+    <div class="skills-grid reveal-stagger" style="grid-template-columns:repeat(4,1fr); margin-top:20px;">
+      <div class="skill-cat glass" style="grid-column:span 4;">
+        <h4>Other interests</h4>
+        <div class="interest-tags" style="margin-top:0;">
+          <span>Cybersecurity</span><span>Ethical Hacking</span><span>AI Development</span><span>Software Architecture</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-eyebrow">03 / Projects</span>
+      <h2>Selected work.</h2>
+      <p>A mix of shipped products, in-progress builds, and experiments across web, AI, and security.</p>
+    </div>
+
+    <div class="projects-toolbar reveal">
+      <div class="filter-row" id="filter-row">
+        <button class="filter-chip active" data-filter="all">All</button>
+        <button class="filter-chip" data-filter="react">React</button>
+        <button class="filter-chip" data-filter="python">Python</button>
+        <button class="filter-chip" data-filter="ai">AI</button>
+        <button class="filter-chip" data-filter="security">Security</button>
+        <button class="filter-chip" data-filter="pwa">PWA</button>
+      </div>
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="search" id="project-search" placeholder="Search projects…" aria-label="Search projects">
+      </div>
+    </div>
+
+    <div class="projects-grid reveal-stagger" id="projects-grid">
+
+      <article class="project-card glass" data-tags="react ai pwa">
+        <div class="project-shot"><img src="assets/projects/codebreakers-academy.svg" alt="CodeBreakers Academy interface mockup showing course list, coding challenge, and progress ring" loading="lazy"></div>
+        <div class="project-body">
+          <div class="project-top">
+            <h3>CodeBreakers Academy</h3>
+            <span class="project-status status-progress">In Progress</span>
+          </div>
+          <p class="project-desc">An e-learning platform for developers and ethical hackers, with an in-browser coding playground, timed quizzes, challenge tracks, and progress tracking — installable as a PWA for offline study.</p>
+          <p class="project-meta"><b>Solves:</b> fragmented, paywalled resources for beginner devs learning security</p>
+          <div class="tag-row"><span>React</span><span>Node.js</span><span>MongoDB</span><span>PWA</span></div>
+          <div class="project-links">
+            <a href="#" class="btn btn-ghost btn-sm">GitHub</a>
+            <a href="#" class="btn btn-primary btn-sm">Live demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card glass" data-tags="ai security python">
+        <div class="project-shot"><img src="assets/projects/synapseos.svg" alt="SynapseOS dashboard mockup showing threat severity, node graph, and AI incident summary" loading="lazy"></div>
+        <div class="project-body">
+          <div class="project-top">
+            <h3>SynapseOS</h3>
+            <span class="project-status status-progress">In Progress</span>
+          </div>
+          <p class="project-desc">An AI-powered cybersecurity analysis platform that ingests logs and incident data, flags anomalies, and produces plain-language summaries of what likely happened and why.</p>
+          <p class="project-meta"><b>Solves:</b> the time cost of manually triaging raw security logs</p>
+          <div class="tag-row"><span>Python</span><span>Claude API</span><span>FastAPI</span><span>Security</span></div>
+          <div class="project-links">
+            <a href="#" class="btn btn-ghost btn-sm">GitHub</a>
+            <a href="#" class="btn btn-primary btn-sm">Live demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card glass" data-tags="react python">
+        <div class="project-shot"><img src="assets/projects/playmaker-solver.svg" alt="Playmaker Solver interface mockup showing a calculus problem and step-by-step solution" loading="lazy"></div>
+        <div class="project-body">
+          <div class="project-top">
+            <h3>Playmaker Solver</h3>
+            <span class="project-status status-live">Live</span>
+          </div>
+          <p class="project-desc">A mathematics and calculus assistant that breaks problems into step-by-step solutions with graph visualization, built as an installable PWA for students studying on the go.</p>
+          <p class="project-meta"><b>Solves:</b> students needing worked explanations, not just final answers</p>
+          <div class="tag-row"><span>JavaScript</span><span>PWA</span><span>Math.js</span></div>
+          <div class="project-links">
+            <a href="#" class="btn btn-ghost btn-sm">GitHub</a>
+            <a href="#" class="btn btn-primary btn-sm">Live demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card glass" data-tags="ai react">
+        <div class="project-shot"><img src="assets/projects/prof-trader.svg" alt="Prof Trader dashboard mockup showing a candlestick chart, AI buy signal, and portfolio value" loading="lazy"></div>
+        <div class="project-body">
+          <div class="project-top">
+            <h3>Prof Trader</h3>
+            <span class="project-status status-progress">In Progress</span>
+          </div>
+          <p class="project-desc">A trading assistant platform combining live market data with AI-based analysis to surface entry signals, trend reads, and a running portfolio summary.</p>
+          <p class="project-meta"><b>Solves:</b> beginner traders overwhelmed by raw chart data</p>
+          <div class="tag-row"><span>React</span><span>Chart.js</span><span>AI</span></div>
+          <div class="project-links">
+            <a href="#" class="btn btn-ghost btn-sm">GitHub</a>
+            <a href="#" class="btn btn-primary btn-sm">Live demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card glass" data-tags="python security">
+        <div class="project-shot"><img src="assets/projects/murya-voice.svg" alt="Murya Voice interface mockup showing an interactive voice response call flow in Hausa and English" loading="lazy"></div>
+        <div class="project-body">
+          <div class="project-top">
+            <h3>Murya Voice</h3>
+            <span class="project-status status-progress">Concept</span>
+          </div>
+          <p class="project-desc">A voice-driven IVR solution for local communities — offering information and services in Hausa and English through simple phone-based menus, designed for low-connectivity areas.</p>
+          <p class="project-meta"><b>Solves:</b> digital services excluding non-smartphone, non-literate users</p>
+          <div class="tag-row"><span>Python</span><span>Twilio</span><span>IVR</span></div>
+          <div class="project-links">
+            <a href="#" class="btn btn-ghost btn-sm">GitHub</a>
+            <a href="#" class="btn btn-primary btn-sm">Live demo</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+    <p id="no-results" style="display:none; text-align:center; color:var(--text-3); font-family:var(--font-mono); font-size:13px; margin-top:20px;">No projects match your search — try a different keyword or filter.</p>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-eyebrow">04 / Experience</span>
+      <h2>How I got here.</h2>
+      <p>A self-directed path — most of it learned by building, breaking, and rebuilding.</p>
+    </div>
+    <div class="timeline reveal-stagger">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <span class="timeline-date">STAGE 01</span>
+        <h3>Learning programming fundamentals</h3>
+        <p>Started with HTML, CSS, and JavaScript, then branched into Python — building small scripts and static pages to understand core logic before reaching for frameworks.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <span class="timeline-date">STAGE 02</span>
+        <h3>Building personal projects</h3>
+        <p>Moved from tutorials to original builds: a portfolio site, a student management system, and utility apps — each one adding a new tool to the stack.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <span class="timeline-date">STAGE 03</span>
+        <h3>Exploring cybersecurity</h3>
+        <p>Picked up Linux and Kali Linux, studied common attack vectors like SQL injection and RCE, and started applying that lens to secure my own projects.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <span class="timeline-date">STAGE 04</span>
+        <h3>Studying software engineering formally</h3>
+        <p>Enrolled in the National Innovation Diploma programme at KSITM, pairing structured coursework with continued independent project work.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <span class="timeline-date">STAGE 05</span>
+        <h3>Co-founding CodeBreakers &amp; continuous learning</h3>
+        <p>Co-founded CodeBreakers to teach programming and ethical hacking to others, while continuing to explore AI tooling, backend development, and system architecture.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION & CERTIFICATIONS -->
+<section id="education">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-eyebrow">05 / Education</span>
+      <h2>Formal study, self-directed depth.</h2>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card glass reveal">
+        <div class="edu-top">
+          <div>
+            <h3>Computer Software Engineering</h3>
+            <span class="edu-sub">Katsina State Institute of Technology &amp; Management · National Innovation Diploma</span>
+          </div>
+          <span class="edu-badge">NID/CSE/24/0111</span>
+        </div>
+        <p style="color:var(--text-2); font-size:0.92rem;">Coursework spans software design, systems fundamentals, and hands-on labs — most recently completing a group SIWES industrial training placement covering frontend web development and introductory networking.</p>
+        <div class="course-grid">
+          <div>Software Design Principles</div>
+          <div>Data Structures</div>
+          <div>PC Upgrade &amp; Maintenance</div>
+          <div>Networking Fundamentals</div>
+          <div>Frontend Web Development</div>
+          <div>Systems Documentation (DFDs)</div>
+        </div>
+      </div>
+      <div class="cert-list reveal">
+        <div class="cert-item glass">
+          <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+          <div class="cert-info"><h4>Python Programming</h4><span>Planned</span></div>
+        </div>
+        <div class="cert-item glass">
+          <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4z"/></svg></div>
+          <div class="cert-info"><h4>Cybersecurity Fundamentals</h4><span>Planned</span></div>
+        </div>
+        <div class="cert-item glass">
+          <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M4 9h16M9 4v16"/></svg></div>
+          <div class="cert-info"><h4>Web Development</h4><span>Planned</span></div>
+        </div>
+        <div class="cert-item glass">
+          <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h.01M7 12h.01M7 16h.01M11 8h6M11 12h6M11 16h4"/></svg></div>
+          <div class="cert-info"><h4>Linux Administration</h4><span>Planned</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-eyebrow">06 / Contact</span>
+      <h2>Let's build something.</h2>
+      <p>Open to internships, freelance work, and collaborations — reach out however's easiest.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="contact-row glass" style="padding:16px; border-radius:14px;">
+          <div class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div>
+          <div><span class="cl">EMAIL</span><br><span class="cv">hello@playmaker.dev</span></div>
+        </div>
+        <div class="contact-row glass" style="padding:16px; border-radius:14px;">
+          <div class="ci"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.4 9.4 0 015 0c1.9-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.95.36.3.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0012 2z"/></svg></div>
+          <div><span class="cl">GITHUB</span><br><span class="cv">github.com/playmaker</span></div>
+        </div>
+        <div class="contact-row glass" style="padding:16px; border-radius:14px;">
+          <div class="ci"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 5a2 2 0 11-4-.01 2 2 0 014 .01zM3.3 8.75h3.6V21H3.3V8.75zM9.4 8.75h3.45v1.68h.05c.48-.9 1.65-1.86 3.4-1.86 3.63 0 4.3 2.4 4.3 5.5V21h-3.6v-6.13c0-1.46-.03-3.35-2.05-3.35-2.06 0-2.37 1.6-2.37 3.25V21H9.4V8.75z"/></svg></div>
+          <div><span class="cl">LINKEDIN</span><br><span class="cv">linkedin.com/in/playmaker</span></div>
+        </div>
+        <div class="contact-row glass" style="padding:16px; border-radius:14px;">
+          <div class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><span class="cl">LOCATION</span><br><span class="cv">Nigeria</span></div>
+        </div>
+      </div>
+
+      <form class="contact-form glass reveal" id="contact-form" novalidate>
+        <div class="form-row" id="row-name">
+          <label for="f-name">Your name</label>
+          <input type="text" id="f-name" name="name" placeholder="e.g. Amina Yusuf" autocomplete="name">
+          <div class="form-error" id="err-name"></div>
+        </div>
+        <div class="form-row" id="row-email">
+          <label for="f-email">Email address</label>
+          <input type="email" id="f-email" name="email" placeholder="you@example.com" autocomplete="email">
+          <div class="form-error" id="err-email"></div>
+        </div>
+        <div class="form-row" id="row-message">
+          <label for="f-message">Message</label>
+          <textarea id="f-message" name="message" placeholder="Tell me about the project or opportunity…"></textarea>
+          <div class="form-error" id="err-message"></div>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Send message</button>
+        <div class="form-status" id="form-status" role="status"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Abdulhafiz "Playmaker" Nasir. Built with HTML, CSS &amp; JavaScript.</p>
+    <p>Designed &amp; coded from Nigeria 🇳🇬</p>
+  </div>
+</footer>
+
+<button id="back-to-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
